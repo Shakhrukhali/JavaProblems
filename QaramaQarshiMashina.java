@@ -1,5 +1,3 @@
-package Shoxrux;
-
 public class QaramaQarshiMashina {
     public static void main(String[] args) {
         int v1 = 80;
