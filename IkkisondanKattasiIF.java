@@ -13,6 +13,6 @@ public class IkkisondanKattasiIF {
         } else {
             max = b;
         }
-        System.out.println("max : "+max);
+        System.out.println("max : " + max);
     }
 }
