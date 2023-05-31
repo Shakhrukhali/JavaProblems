@@ -9,12 +9,13 @@ public class UchtaSondanKichigiiIF {
         int b = scanner.nextInt();
         System.out.print("c : ");
         int c = scanner.nextInt();
+
         int min;
-        min = a;
-        if (a > b)
+        if (a <= b && a <= c)
+            min = a;
+        else if (b <= a && b <= c)
             min = b;
-        else if (b > c)
-            min = c;
+        else min = c;
         System.out.println("min : " + min);
     }
 }
