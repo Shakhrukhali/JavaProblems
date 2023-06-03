@@ -1,3 +1,5 @@
+package JavaOperators;
+
 import java.util.Scanner;
 public class BitwiseJuftToq {
     public static void main(String[] args) {

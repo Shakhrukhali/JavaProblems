@@ -1,6 +1,8 @@
+package ControlFlowStatementsDecisionMakingStatements;
+
 import java.util.Scanner;
 
-public class MusbatBolsaBirgaOshir {
+public class MusbatBirgaOshAksIkkigaKamaytir {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("number : ");
@@ -8,8 +10,9 @@ public class MusbatBolsaBirgaOshir {
         if (number > 0) {
             number++;
         } else {
-            number = number;
+            number -= 2;
         }
         System.out.println(number);
     }
 }
+

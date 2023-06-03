@@ -1,3 +1,5 @@
+package ControlFlowStatementsDecisionMakingStatements;
+
 import java.util.Scanner;
 
 public class Aning1DanNgachaBulganDarajariSum {
@@ -8,7 +10,7 @@ public class Aning1DanNgachaBulganDarajariSum {
         System.out.print("n = ");
         int n = scanner.nextInt();
         for (int i = 0; i <= n; i++) {
-            System.out.print(Math.pow(a,i)+ " + ");
+            System.out.print(Math.pow(a, i) + " + ");
             sum += Math.pow(a, i);
         }
 

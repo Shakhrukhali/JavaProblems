@@ -1,6 +1,8 @@
+package ControlFlowStatementsDecisionMakingStatements;
+
 import java.util.Scanner;
 
-public class UchtaSondanKichigiiIF {
+public class UchtaSondanNechtaMusbatSonBorligi {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("a : ");
@@ -10,12 +12,18 @@ public class UchtaSondanKichigiiIF {
         System.out.print("c : ");
         int c = scanner.nextInt();
 
-        int min;
-        if (a <= b && a <= c)
-            min = a;
-        else if (b <= a && b <= c)
-            min = b;
-        else min = c;
-        System.out.println("min : " + min);
+        int count = 0;
+        if(a>0){
+            count++;
+        }
+        if (b>0){
+            count++;
+        }
+        if (c>0){
+            count++;
+        }
+        System.out.println(count+" ta musbat son bor!!!");
+
     }
+
 }
