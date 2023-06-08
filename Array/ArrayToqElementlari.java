@@ -16,17 +16,28 @@ public class ArrayToqElementlari {
 
         for (int i = 0; i < n; i++) {
             array[i] = random.nextInt(1, 50);
+
         }
         System.out.println(Arrays.toString(array));
 
 
-        int[] array2 = new int[n];
+       int count = 0;
+
         for (int i = 0; i < n; i++) {
             if (array[i] % 2 != 0) {
-                array2[i] = array[i];
-                System.out.print(array2[i] + " ");
+                count++;
             }
+
         }
 
+        int[] array2 = new int[count];
+        int index = 0;
+        for (int i = 0; i < n; i++) {
+            if (array[i] % 2 != 0) {
+                array2[index] = array[i];
+                System.out.print(array2[index] + " ");
+                index++;
+            }
+        }
     }
 }
